@@ -23,23 +23,23 @@ body {
     font-size: 18px;
 }
 
-.calculator .inputs {
+.calculator .text {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.calculator .inputs .input-area {
+.calculator .text .input-area {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.calculator .inputs .input-area .error-msg {
+.calculator .text .input-area .error-msg {
     display: none;
     color: #bb3030;
     font-size: 14px;
 }
 
-.calculator .inputs .output-area {
+.calculator .text .output-area {
     display: none; /* When active: flex */
     flex-direction: column;
     gap: 5px;
