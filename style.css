@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    gap: 30px;
+    padding: 30px 40px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.calculator .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.calculator .inputs .input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.calculator .inputs .input-area .error-msg {
+    display: none;
+    color: #bb3030;
+    font-size: 14px;
+}
+
+.calculator .inputs .output-area {
+    display: none; /* When active: flex */
+    flex-direction: column;
+    gap: 5px;
+}
+
+.calculator .button {
+    display: flexbox;
+    width: 150px;
+    height: 36px;
+    margin: 0 auto;
+}

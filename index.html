@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calcular IMC</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1 id="pageTitle" class="title">
+            Calcular IMC
+        </h1>
+
+        <section class="calculator">
+
+            <div class="inputs">
+                <div class="input-area">
+                    <span class="label">
+                        Altura (m):
+                    </span>
+
+                    <input type="number" name="altura" id="inAltura" placeholder="Digite sua altura em metros...">
+                    <span class="error-msg" id="errorMsg01"></span>
+                </div>
+
+                <div class="input-area">
+                    <span class="label">
+                        Peso (kg):
+                    </span>
+
+                    <input type="number" name="pesoEmKg" id="inPesoKg" placeholder="Digite seu peso em quilos...">
+                    <span class="error-msg" id="errorMsg02"></span>
+                </div>
+
+                <div class="output-area">
+                    <span class="label">
+                        Resultado: 
+                    </span>
+
+                    <span class="outResult">
+                        ...
+                    </span>
+                </div>
+            </div>
+    
+            <button class="button" id="btnCalc">
+                Calcular IMC
+            </button>
+
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
